@@ -1,6 +1,5 @@
-import { TodoList } from "../../organisms/TodoList";
-import { InputForm } from "../../atoms/InputForm";
-import { AddTodo } from "../../organisms/AddTodo";
+import { InputForm } from "../../atoms";
+import { AddTodo, TodoList } from "../../organisms";
 import { useTodo } from "../../../hooks/useTodo";
 import styles from "./style.module.css";
 
